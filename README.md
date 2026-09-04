@@ -22,6 +22,13 @@ The shared contract belongs in `SKILL.md`. Host-specific metadata may be
 added alongside it, but do not maintain separate Claude and Codex copies of
 the same instructions.
 
+## Included skills
+
+- `delegate-with-subagents` — decide when and how to split work across
+  bounded subagents.
+- `audit-merges` — inspect a combined merge range for defects that emerge
+  only when otherwise-correct branches interact.
+
 ## Add a skill
 
 Add `skills/<skill-name>/SKILL.md`, then run:
